@@ -1,0 +1,47 @@
+.top_container{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    display: flex;
+}
+.container{
+    position: relative;
+    margin-top: 20px;
+    width: 250px;
+    height: 365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container_explain{
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 230px;
+    height: 345px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.list{
+    list-style-type: none;
+    align-items: center;
+}
+.listItem{
+    float: left;
+}
+.title{
+    text-align:end;
+}
+.title_link{
+    color: black;
+    text-decoration-line: none;
+}
+.title_link:hover{
+    text-decoration-line: underline;
+}
+.title_img{
+    border-radius: 10px;
+}
